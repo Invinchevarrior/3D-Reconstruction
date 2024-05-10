@@ -4,7 +4,7 @@ import os
 import cv2
 
 ip = '10.112.127.227'  # or public IP of the machine for sharable display
-port = 10000  # change to an unused port number
+port = 10000  
 neuroglancer.set_server_bind_address(bind_address=ip, bind_port=port)
 viewer = neuroglancer.Viewer()
 
